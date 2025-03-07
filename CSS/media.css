@@ -44,6 +44,13 @@
     
 } 
 @media (max-width: 767px){
+    .footer-colum-right {
+
+        margin-left: 0;
+    }
+    .footer-item-text h6 {
+        width: 270px;
+    }
     .pidtrimka-card-oplata-body_items,
     .pidtrimka-card-body_text {
 
