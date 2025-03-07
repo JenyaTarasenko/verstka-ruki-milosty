@@ -1,0 +1,243 @@
+@media (max-width: 1027px){
+
+    .videio-card {
+        width: 550px;
+    }    
+}
+
+
+@media (max-width: 992px){
+
+    .image-section {
+        display: none;
+
+    } 
+    .img-first-page,  
+    .image-first-mobile{
+
+        display: block;
+    }
+    .first-item h1{
+        
+        text-align: left;
+        display: flex;
+        justify-content: center;
+
+    }
+    .first-text {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+
+    }
+    .first-text-description  {
+
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+
+
+    }
+
+
+    
+} 
+@media (max-width: 767px){
+    .pidtrimka-card-oplata-body_items,
+    .pidtrimka-card-body_text {
+
+        padding: 0 30px;
+    }
+    .pidtrimka-card-oplata-body_button {
+
+        padding-left: 70px;
+    }
+    .pidtrimka-card {
+
+        width: 400px;
+        height: 600px;
+    }
+    .team-lider {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .team-card-right {
+
+        border-radius: 0 30px 30px 30px;
+    }
+}
+@media (max-width: 500px){
+    .ruki-body-column {
+
+        margin-bottom: 50px;
+
+
+    }
+
+    .ruki-text h3 {
+
+        font-size: 20px;
+        width: 300px;
+    }
+    .ruki-item {
+
+        font-size: 30px;
+
+    }
+    .ruki-description h6 {
+
+        font-size: 14px;
+    }
+    .ruki-description  {
+
+        width: 300px;
+    }
+    .image-about-style img {
+
+        width: 320px;
+        height: auto;
+      
+    }
+  
+
+    .card-left-item {
+
+        width: 320px;
+    }
+    .conteiner-left-item h4 {
+
+        font-size: 30px;
+    }
+    .conteiner-left-item p{
+
+        font-size: 14px;
+    }
+    .card-right-description,
+    .card-right-item,
+    .card-column-item-left,
+    .card-column-item-right {
+
+        width: 150px;
+    }
+    .column-item-left-container,
+    .card-right-description-row,
+    .card-right-description-rows {
+
+        margin-left: 0;
+    }
+    .card-right-description-row h4,
+    .column-item-right-container h4,
+    .column-item-left-container h4 {
+
+        font-size: 20px;
+    }
+    .card-right-description-rows h4,
+    .card-right-description-row h5 {
+
+        font-size: 18px;
+
+
+    }
+
+    .main-text {
+        font-size: 30px;
+        line-height: 1;
+    }
+    .description-text {
+
+        font-size: 14px;
+    }
+
+
+    .img-first-page {
+
+        width: 350px;
+        height: 350px;
+
+    }
+    .first-text-description h3 {
+
+        font-size: 14px;
+    }
+    .first-item h1  {
+
+        font-size: 50px;
+    }
+
+}
+@media (max-width: 580px){
+
+    .videio-card {
+        width: 320px;
+        height: 400px;
+    } 
+    .video-card-content {
+        width: 320px;  
+    }    
+}
+@media (max-width: 480px){
+
+    .team-card-right {
+
+        width: 300px;
+        height: 200px;
+    }
+
+    .about-card {
+
+        width: 300px;
+        height: 390px;
+    }
+    .about-card-body-item h5 {
+
+        font-size: 25px;
+    }
+}
+@media (max-width: 400px){
+
+    .nasha-dialnist-card {
+        width: 320px;
+    }    
+
+    .pidtrimka-card {
+
+        width: 300px;
+        height: 550px;
+        
+    }
+    .pidtrimka-card-oplata-body_items,
+    .pidtrimka-card-body_text {
+        padding: 0; 
+
+    }
+    .pidtrimka-card-body_text h6 {
+
+        font-size: 25px;
+    }
+    .pidtrimka-card-oplata-body_items h6 {
+
+        font-size: 25px;
+    }
+    .pidtrimka-card-oplata-body_button {
+        padding-left: 30px;
+        margin-top: 60px;
+    }    
+
+   
+
+    .img-first-page {
+
+        width: 300px;
+        height: 300px;
+
+    }
+    .main-text {
+        font-size: 20px;
+    }
+
+}
