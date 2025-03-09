@@ -75,7 +75,7 @@ html,body {
     border-radius: 40px;
 }
 .first-text h2 {
-    font-family: "Unbounded",sans-serif;
+    font-family: "Jost",sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 42px;
@@ -86,7 +86,7 @@ html,body {
 }
 .first-item {
 
-    padding: 10px;
+    /* padding: 10px; */
 
 }
 .first-text-description {
@@ -101,20 +101,22 @@ html,body {
 }
 .first-item h1{
     font-family: "Unbounded",sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
-    line-height: 70px;
+    /* line-height: 70px; */
     color:#C01F2F;
 }
 .first-text-description h3 {
 
-    font-family: "Unbounded",sans-serif;
+    font-family: "Jost",sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 28px;
-    color: #090f88;
+    color: #070707;
+}
+.first-text-description  {
 
-
+    width: 400px;
 }
 .img-first-page,
 .image-first-mobile {
@@ -1175,9 +1177,9 @@ html,body {
 
 .footer-item-text h6{
 
-    font-family: "Unbounded",sans-serif;
+    font-family: "Jost",sans-serif;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 400;
     color: #ffffff;
     opacity: 45%;
 }
@@ -1285,10 +1287,141 @@ html,body {
   
 }
 /* -----------------footer-section-----------------*/
+/* -----------------about-page-----------------*/
+/* -----------------about-first-section-----------------*/
+
+.about-first-text h1 {
+
+    font-family: "Jost",sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #373737;
 
 
-/* font-family: "Unbounded", 'Inter',sans-serif;
+}
+.about-first-text  {
+
+    width: 400px;
+}
+.about-first-description h2 {
+
+
+    font-family: "Jost",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #373737;
+    opacity: 50%;
+    
+}
+.about-first-description {
+
+    width: 400px;
+}
+
+.about-first-descriptiontext h3{
+
+
+    font-family: "Jost",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #373737;
+
+}
+.about-first-descriptiontext  {
+
+    width: 400px;
+}
+
+.about-first-img-body  img{
+
+    border-radius: 40px;
+
+
+}
+/* -----------------about-first-section-----------------*/
+/* -----------------about-image-----------------*/
+.about-image-item img {
+
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+
+}
+
+
+
+.about-image-items img{
+
+    /* width: 500px;
+    height: 300px; */
+    border-radius: 30px;
+
+}
+.about-image-text  h4{
+
+    font-family: "Jost",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #373737;
+}
+.about-image-text  {
+
+    width: 500px;
+}
+
+/* -----------------about-image-----------------*/
+
+/* -----------------about-image-full-----------------*/
+.img-full-about-team {
+
+    border-radius: 20px;
+
+
+}
+/* -----------------about-image-full-----------------*/
+/* -----------------about-text-section-----------------*/
+.about-text-description h3{
+
+    font-family: "Jost",sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #373737;
+}
+.about-text-description  {
+
+    width: 510px;
+}
+
+.about-text-description-item h4{
+  
+    font-family: "Unbounded",sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    color: #C01F2F;
+}
+.about-text-description-item  {
+
+    width: 650px;
+}
+.about-text-description-items p{
+
+    font-family: "Jost",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #373737;
+
+}
+
+
+/* -----------------about-text-section-----------------*/
+
+/* -----------------about-page-----------------*/
+
+
+
+/* font-family: "Unbounded", "Jost",'Inter',sans-serif;
 font-optical-sizing: auto;
 font-weight: <weight>;
 font-style: normal; */
 /* #040404 */
+/* color: #373737; */

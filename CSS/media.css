@@ -1,3 +1,28 @@
+@media (max-width: 1100px){
+    .column-image{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .about-image-item img {
+        width: calc(100vw - 20px); /* Учитываем паддинги по 10px с каждой стороны */
+        height: calc(100vh - 20px); /* Учитываем паддинги по 10px сверху и снизу */
+        object-fit: cover; /* Растягиваем картинку, сохраняя пропорции */
+    }
+    .about-image-right-column {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap:30px;
+
+
+    }
+}
+
 @media (max-width: 1027px){
 
     .videio-card {
@@ -178,6 +203,7 @@
 
 }
 @media (max-width: 580px){
+    
 
     .videio-card {
         width: 320px;
