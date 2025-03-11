@@ -90,7 +90,7 @@ html,body {
 
 }
 .first-text-description {
-    padding: 10px;
+    /* padding: 10px; */
 
 
 }
@@ -111,17 +111,16 @@ html,body {
     font-family: "Jost",sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 28px;
+    /* line-height: 28px; */
     color: #070707;
 }
 .first-text-description  {
 
     width: 400px;
 }
-.img-first-page,
+.img-first-page-mobile,
 .image-first-mobile {
     display: none;
-
 }
 .rounded-button {
 
@@ -188,9 +187,9 @@ html,body {
 }
 .description-text {
 
-    font-family: "Unbounded",sans-serif;
+    font-family: "Jost",sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 20px;
     color: rgb(106, 106, 106);
     max-width: 500px;
@@ -673,7 +672,7 @@ html,body {
 
 .about-card {
 
-    width: 350px;
+    width: 420px;
     height: 350px;
     background-color:#5C7685;
     border-radius: 30px;
@@ -721,11 +720,11 @@ html,body {
 
 .about-card-body-items p{
 
-    font-family: "Inter",sans-serif;
+    font-family: "Jost",sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    color: #D3D3D3;
+    color: #ffffff;
 
 
 
@@ -1025,7 +1024,14 @@ html,body {
     color: #373737;
 
 }
+.shlah-card-one-body_items p {
 
+    font-family: "Jost",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #373737;
+
+}
 .shlah-card-one-body  {
 
     margin-top: 40px;
@@ -1375,6 +1381,9 @@ html,body {
 .img-full-about-team {
 
     border-radius: 20px;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    object-fit: cover;
 
 
 }
@@ -1417,6 +1426,467 @@ html,body {
 
 /* -----------------about-page-----------------*/
 
+/* -----------------news-page-----------------*/
+/* -----------------about-card-section -----------------*/
+.arctic-row  {
+
+    margin-top: 10px;
+
+
+}
+.card-image-about-center{
+
+    width: 200px;
+    height: 200px;
+}
+.card-page-new {
+
+    width: 450px;
+    height: 450px;
+    background-color: #FFE9B8;
+    border-radius: 40px;
+
+}
+.card-page-new-top {
+
+    width: 920px;
+    height: 340px;
+    background-color: #D1BAF0;
+    border-radius: 40px;
+}
+.card-page-news-body--circul-top img,
+.card-page-news-body--circul img{
+    width: 48px;
+    height:48px;
+   
+
+}
+.card-page-news-body--description-items-top {
+
+    padding: 10px 40px;
+}
+.card-page-news-body--description-imgs-top img {
+
+    width: 150px;
+    height:150px;
+    margin-left: 500px;
+}
+.card-page-news-body--description-imgs {
+    /* margin-top: 30px; */
+    margin-left: 200px;
+}
+.card-page-news-body--description-img {
+
+    margin-top: 30px;
+    margin-left: 220px;
+
+
+}
+.card-page-news-body--circul-top,
+.card-page-news-body--circul {
+
+    margin-top:40px;
+    margin-left: 40px;
+}
+.card-page-news-body--description-item-top h3{
+
+    font-family: "Unbounded",sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #373737;
+    position: absolute;
+    width: 300px;
+    margin-left: 100px;
+
+
+}
+.card-page-news-body--description-item h3{
+
+    font-family: "Unbounded",sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #373737;
+    position: absolute;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 30px;
+
+}
+.card-page-news-body--description-items-top h4,
+.card-page-news-body--description-items h4,
+.card-page-news-body--description-text h4{
+
+    font-family: "Jost",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #373737;
+
+}
+.card-page-news-body--description-items  {
+
+    margin-top: 20px;
+
+
+}
+
+/* -----------------about-card-section -----------------*/
+
+/* -----------------section-pagination -----------------*/
+
+.section-pagination .pagination .page-link {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px; /* Задаем ширину */
+    height: 45px; /* Задаем высоту */
+    line-height: 45px; /* Выравниваем текст */
+    text-align: center;
+    border-radius: 50%; /* Делаем кнопки круглыми */
+    margin: 0 5px; /* Добавляем небольшие отступы */
+    /* border: 1px solid #000000;  */
+    color: #030303; /* Цвет текста */
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+.section-pagination .pagination .page-item.active .page-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: rgb(11, 10, 10);
+    border: 1px solid #E77B2D;
+}
+.section-pagination .pagination .page-link:hover {
+    background-color: #E77B2D;
+    color: white;
+    border-color:#E77B2D;
+}
+/* -----------------section-pagination -----------------*/
+
+/* -----------------section-chasty-pitannia-----------------*/
+.chasty-pitannia-card-two--bady-text,
+.chasty-pitannia-card-one--bady-text {
+    /* width: 200px; */
+    margin-top: 40px;
+    margin-left: 30px;
+ 
+
+
+}
+.chasty-pitannia-card-four {
+    width: 400px;
+    height: 350px;
+    background: linear-gradient(to bottom, #CFF5E5, #e7fef5);
+
+    border-radius: 40px;
+
+
+}
+.chasty-pitannia-card-three {
+
+    background: linear-gradient(to bottom, #DCEDF6, #f2faff);
+    width: 500px;
+    height: 350px;
+    border-radius: 40px;
+
+
+
+}
+.chasty-pitannia-card-one {
+
+    width: 400px;
+    height: 350px;
+    background: linear-gradient(to bottom, #D9D9D9, #f0eded);
+    border-radius: 40px;
+}
+
+.chasty-pitannia-card-two--bady-text h5,
+.chasty-pitannia-card-one--bady-text h5 {
+
+
+    font-family: "Unbounded",sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #373737;
+
+  
+
+}
+
+.chasty-pitannia-card-one--bady-description h6{
+
+
+    font-family: "Jost",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #373737;
+    width: 400px;
+}
+.chasty-pitannia-card-two--bady-description h6 {
+
+    font-family: "Jost",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #373737;
+
+}
+
+
+.chasty-pitannia-card-one--bady-description-item p{
+
+
+    font-family: "Jost",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #373737;
+    padding: 0;
+    margin: 0; 
+}
+
+.chasty-pitannia-card-two {
+
+    width: 500px;
+    height: 350px;
+    background: linear-gradient(to bottom, #FFC541, #ffda83);
+
+    border-radius: 40px;
+
+}
+
+/* -----------------section-chasty-pitannia-----------------*/
+
+/* -----------------dialnist-new-----------------*/
+.dialnist-new-card-one {
+
+    width: 500px;
+    height: 300px;
+    /* background: linear-gradient(to bottom, #342BD8, #9892ff); */
+    background:#342BD8;
+    opacity: 70%;
+    border-radius: 50px;
+}
+.dialnist-new-card-three,
+.dialnist-new-card-two {
+    width: 290px;
+    height: 300px;
+    background: linear-gradient(to bottom, #FFE9B8, #ffefce);
+    border-radius: 50px;
+}
+.dialnist-one-card-bady {
+
+    margin-top: 40px;
+    padding: 30px;
+    margin-left: 30px;
+}
+.dialnist-one-card-bady-text h6{
+
+    font-family: "Jost",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    width: 400px;
+
+} 
+.dialnis-new-card-two--body {
+
+    position: relative;
+}
+
+.button-dialnist-about{
+
+    border: 1px solid rgb(255, 255, 255); /* Добавим начальную черную обводку */
+    width: 270px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Unbounded",sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 23px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.button-dialnist-about:hover {
+    border-color: #FFB202; /* Изменяем цвет обводки на #FFB202 при наведении */
+
+    color: #FFB202; /* Меняем цвет текста при наведении */
+}
+.button-dialnist-about:active {
+    border-color: #FFB202; /* Изменяем цвет обводки на #FFB202 при нажатии */
+    color: #FFB202; /* Меняем цвет текста при нажатии */
+}
+
+.dialnist-new-card-img {
+
+    margin-left: 45px;
+    margin-top: 30px;
+
+}
+
+.dialnist-new-card-img img{
+
+    width: 200px;
+    height: 200px;
+    opacity: 90%;
+
+}
+.dialnist-new-card-two--text {
+
+    position: absolute;
+}
+.dialnist-new-card-two--text h6 {
+
+    font-family: "Jost",sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #373737;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 150px;
+
+
+}
+.dialnist-new-card-two--description p{
+
+    font-family: "Jost",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #373737;
+    padding: 20px;
+
+}
+.dialnist-new-card-two--description {
+
+    margin-top: 100px;
+    width: 300px;
+    position: absolute;
+
+}
+.dialnist-new-card-three--description h5 {
+
+    font-family: "Jost",sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #373737;
+    margin-top: 140px;
+}
+.dialnist-new-card-three {
+
+    width: 290px;
+    height: 300px;
+    background: linear-gradient(to bottom, #7FADF2, #7FADF2);
+    border-radius: 50px;
+
+}
+
+.dialnist-new-card-three--body {
+
+    margin-top: 60px;
+    padding: 20px;
+
+    position: relative;
+}
+.dialnist-new-card-three--text {
+
+    width: 270px;
+}
+
+.dialnist-new-card-three--img {
+
+    margin-top: 80px;
+    margin-left: 140px; 
+
+}
+
+.dialnist-new-card-three--img img{
+
+    width: 100px;
+    height: 100px;
+}
+.dialnist-new-card-three--text p{
+
+    font-family: "Jost",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #373737;
+    width: 250px;
+}
+.dialnist-new-card-three--text,
+.dialnist-new-card-three--description {
+
+    position: absolute;
+    margin-left: 10px;
+
+}
+
+.dialnist-new-card-four {
+
+    width: 320px;
+    height: 300px;
+    background: #FCEBFD;
+    border-radius: 50px;
+}
+
+.dialnist-new-card-four--body {
+
+    margin-top: 30px;
+    padding: 20px;
+
+}
+.dialnist-new-card-four--text {
+    margin-top: 30px;
+
+}
+.dialnist-new-card-four--img  {
+
+    margin-left: 70px;
+    margin-top: -200;
+
+
+}
+.dialnist-new-card-four--img img{
+
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.dialnist-new-card-four--text p{
+
+    font-family: "Jost",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #373737;
+
+}
+.dialnist-new-card-four--description h5 {
+
+    font-family: "Jost",sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #373737;
+
+}
+.dialnist-new-card-four--description,
+.dialnist-new-card-four--text{
+
+
+}
+
+/* -----------------dialnist-new-----------------*/
+
+/* -----------------news-page-----------------*/
+
+
+
+
+
+
+
 
 
 /* font-family: "Unbounded", "Jost",'Inter',sans-serif;
@@ -1425,3 +1895,4 @@ font-weight: <weight>;
 font-style: normal; */
 /* #040404 */
 /* color: #373737; */
+/* background: linear-gradient(to bottom, #B1C7D2, #70b1d1); */
