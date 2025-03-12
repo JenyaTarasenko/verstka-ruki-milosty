@@ -1,3 +1,60 @@
+@media (max-width: 1199px){
+
+    
+    .dialnist-new-card-four,
+    .dialnist-new-card-three,
+    .dialnist-new-card-one,
+    .dialnist-new-card-two {
+        width: 500px;
+    }
+    .dialnist-new-card-five{
+
+        width: 500px;
+        height: 400px;
+    }
+    .dialnist-new-card-two--description {
+
+        width: 500px;
+        margin-top: 120px;
+    }
+    .dialnist-new-card-img {
+
+        margin-left: 150px;
+    }
+    .dialnist-new-card-two--text  {
+
+        margin-left: 20px;
+    }
+    .dialnist-new-card-two--description p {
+
+        padding: 40px;
+    }
+    .dialnist-new-card-three--text p {
+
+        width: 300px;
+
+    }
+
+    .dialnist-new-card-three--body  {
+
+        margin-left: 70px;
+    }
+    .dialnist-new-card-two--text h6 {
+
+        font-size: 35px;
+        width: 300px;
+    }
+    .dialnist-new-card-four--img img {
+
+        margin-left: 240px;
+    }
+    .dialnist-new-card-four--text p  {
+
+        font-size: 20px;
+    }
+
+}
+
 @media (max-width: 1100px){
     .column-image{
 
@@ -311,6 +368,73 @@
     .video-card-content {
         width: 320px;  
     }    
+}
+@media (max-width: 520px){
+    .dialnist-new-card-one{
+
+        width: 300px;
+    }
+    .dialnist-one-card-bady {
+        margin-top: 80px;
+        padding: 0;
+        margin-left: 14px;
+    }    
+    .dialnist-new-card-two--description p {
+
+        padding: 0;
+
+    }
+    .dialnist-new-card-two {
+
+        width: 300px;
+        padding: 20px;
+        height: 320px;
+       
+    }
+    .dialnist-new-card-two--text h6 {
+
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .dialnist-new-card-two--text {
+
+        margin-left: 0;
+    }
+
+    .dialnist-new-card-img {
+        margin-left: 0px;
+    }
+    .dialnist-new-card-two--description {
+        width: 280px;
+    }    
+
+    .dialnist-one-card-bady-text h6 {
+
+        font-size: 20px;
+        width: 300px;
+    }
+    .dialnist-new-card-three{
+
+        width: 300px;
+
+
+    }
+    .dialnist-new-card-three--description,
+    .dialnist-new-card-three--body {
+
+        margin-left: 0;
+    }
+    .dialnist-new-card-three--body {
+
+        padding: 0;
+    }
+    .dialnist-new-card-three--text {
+
+        margin-left: 0;
+    }
+    
+
+
 }
 @media (max-width: 500px){
 

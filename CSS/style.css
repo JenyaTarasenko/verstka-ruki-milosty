@@ -1843,17 +1843,22 @@ html,body {
 }
 .dialnist-new-card-four--img  {
 
-    margin-left: 70px;
-    margin-top: -200;
-
+    
+    margin-left: 50px;
+    margin-top: -70px;
 
 }
 .dialnist-new-card-four--img img{
 
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-left: 90px;
-    margin-top: 30px;
+
+}
+.dialnist-new-card-four--text {
+
+    width: 300px;
+    margin-left: 20px;
 }
 .dialnist-new-card-four--text p{
 
@@ -1871,15 +1876,120 @@ html,body {
     color: #373737;
 
 }
+
+.dialnist-new-card-four--description {
+
+    margin-top: 140px;
+    margin-left: 20px;
+}
 .dialnist-new-card-four--description,
 .dialnist-new-card-four--text{
 
 
+    position: absolute;
+
+}
+.dialnist-new-card-five {
+
+    width: 750px;
+    height: 300px;
+    background-color: #12E395;
+    border-radius: 50px;
+
+
 }
 
+.dialnist-five-card-bady  {
+
+    margin-top: 40px;
+    
+}
+
+.dialnist-five-card-bady-text h6{
+
+    font-family: "Jost",sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #373737;
+
+}
+.dialnist-five-card-bady-text {
+
+    /* width: 240px; */
+    margin-top: 30px;
+
+}
+/* .dialnist-five-card-bady-button {
+
+    margin-top: 40px;
+
+
+} */
+
+.button-dialnist-about-top{
+
+    border: 1px solid rgb(0, 0, 0); /* Добавим начальную черную обводку */
+    width: 270px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Unbounded",sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 23px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.button-dialnist-about-top:hover {
+    border-color: #FFB202; /* Изменяем цвет обводки на #FFB202 при наведении */
+
+    color: #FFB202; /* Меняем цвет текста при наведении */
+}
+.button-dialnist-about-top:active {
+    border-color: #FFB202; /* Изменяем цвет обводки на #FFB202 при нажатии */
+    color: #FFB202; /* Меняем цвет текста при нажатии */
+}
+
+.dialnist-five-card-bady-items p {
+
+
+    font-family: "Jost",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #373737;
+
+
+
+}
 /* -----------------dialnist-new-----------------*/
 
 /* -----------------news-page-----------------*/
+
+
+/* -----------------projects-detail-page-----------------*/
+/* -----------------section-full-scrin-image-----------------*/
+.full-screen-image {
+    width: calc(100vw - 40px); /* 100% ширины минус паддинги */
+    height: calc(100vh - 40px); /* 100% высоты минус паддинги */
+    object-fit: cover; /* Обрезка изображения без искажений */
+    display: block; /* Убираем лишние отступы */
+    margin: auto; /* Выравниваем */
+    border-radius: 30px;
+}
+/* -----------------section-full-scrin-image-----------------*/
+
+/* -----------------projects-detail-section-----------------*/
+.detail-logo {
+    width: 30px;
+    height: 30px;
+justify-content: center;
+align-items: center;
+}
+/* -----------------projects-detail-section-----------------*/
+
+
+/* -----------------projects-detail-page-----------------*/
 
 
 
