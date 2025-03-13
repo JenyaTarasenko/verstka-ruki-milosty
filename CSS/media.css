@@ -96,6 +96,10 @@
     }
 }
 @media (max-width: 992px){
+
+    .contact-rukimilosty-text h2 {
+        font-size: 50px;
+    }
     .arctic-row {
 
         margin-top: 0;
@@ -177,6 +181,11 @@
 
 }
 @media (max-width: 767px){
+    .contact-card-tree,
+    .contact-card  {
+
+        width: 340px;
+    }
     .footer-colum-right {
 
         margin-left: 0;
@@ -212,6 +221,17 @@
     }
 }
 @media (max-width: 550px){
+    .contact-rukimilosty-item h1 {
+
+        font-size: 20px;
+    }
+    .contact-rukimilosty-description h3 {
+
+        font-size: 18px;
+    }
+    .contact-rukimilosty-text h2 {
+        font-size: 40px;
+    }
     .chasty-pitannia-card-four,
     .chasty-pitannia-card-three,
     .chasty-pitannia-card-two,
@@ -235,7 +255,7 @@
 @media (max-width: 500px){
  
     .card-page-news-body--description-item-top h3{
-       font-size: 30px;
+       font-size: 25px;
     }
     .card-page-news-body--description-imgs {
         margin-top: -30px;
@@ -370,6 +390,9 @@
     }    
 }
 @media (max-width: 520px){
+    .detail-random-img {
+        width: 400px;
+    }
     .dialnist-new-card-one{
 
         width: 300px;
@@ -453,6 +476,34 @@
 
 }
 @media (max-width: 480px){
+    .project-card  {
+
+        width: 300px;
+    }
+    .contact-rukimilosty-text h2{
+
+        font-size: 25px;
+    }
+
+    .recvizit-card-item h6, 
+    .card-oplata-recvizit-top-item h6{
+
+        font-size: 12px;
+    }
+    .card-contact-oplata {
+
+        width: 300px;
+    }
+    .card-contact-oplata-body-top {
+        margin-left: 20px;
+    }    
+
+    .contact-card-two,
+    .contact-card-tree,
+    .contact-card  {
+
+        width: 300px;
+    }
 
     .about-first-bady {
         display: flex;
@@ -503,6 +554,9 @@
 }
 
 @media (max-width: 430px){
+    .detail-random-img {
+        width: 300px;
+    }    
 
     .first-text-description  {
 

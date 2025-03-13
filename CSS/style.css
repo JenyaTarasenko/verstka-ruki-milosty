@@ -163,7 +163,7 @@ html,body {
     justify-content: center; /* Центрирует контейнер по горизонтали */
     align-items: center; /* Центрирует контейнер по вертикали */
   
-    padding: 0 20px; /* Немного паддинга для мобильных устройств */
+
 }
 /* -----------------slider section------------------*/
 /* -----------------Text section------------------*/
@@ -528,16 +528,16 @@ html,body {
 }
 .card-description h6{
 
-    font-family: "Inter",sans-serif;
+    font-family: "Jost",sans-serif;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 18px;
 }
 
 
 .project-close {
 
-    font-family: "Inter",sans-serif;
+    font-family: "Jost",sans-serif;
     font-size: 13px;
     font-weight: 600;
     line-height: 18px;
@@ -1104,9 +1104,9 @@ html,body {
 }
 .ruki-text h3{
 
-    font-family: "Unbounded",sans-serif;
-    font-size: 36px;
-    font-weight: 400;
+    font-family: "Jost",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
     color: #373737;
     width: 500px;
 
@@ -1115,7 +1115,7 @@ html,body {
 .ruki-item  {
 
     font-family: "Unbounded",sans-serif;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     color: #C01F2F;
 
@@ -1128,9 +1128,9 @@ html,body {
 
 }
 .ruki-description h6{
-    font-family: "Unbounded",sans-serif;
+    font-family: "Jost",sans-serif;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
     color: #373737;
 
 }
@@ -1236,6 +1236,16 @@ html,body {
     font-weight: 200;
     color: #ffffff;
 
+
+}
+.mars-studio p{
+
+    font-family: "Jost",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #563131;
+    opacity: 60%;
+ 
 
 }
 
@@ -1492,11 +1502,13 @@ html,body {
 
     font-family: "Unbounded",sans-serif;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
     color: #373737;
     position: absolute;
     width: 300px;
-    margin-left: 100px;
+   
+    margin-left: 50px;
+    margin-top: 20px;
 
 
 }
@@ -1504,7 +1516,7 @@ html,body {
 
     font-family: "Unbounded",sans-serif;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
     color: #373737;
     position: absolute;
     width: 300px;
@@ -1983,13 +1995,283 @@ html,body {
 .detail-logo {
     width: 30px;
     height: 30px;
-justify-content: center;
-align-items: center;
+}
+.project-open p,
+.detail-data p,
+.detail-avtor p{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Jost",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #373737;
+
+}
+
+.detail-logo {
+
+    width: 25px;
+    height: 25px;
+}
+.detail-logo-youtube {
+
+    width: 30px;
+    height: 30px;
+}
+.detail-text-description p{
+
+    font-family: "Jost",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #373737;
+
+}
+.detail-soc img {
+    transition: all 0.3s ease-in-out; /* Плавные эффекты */
+}
+
+.detail-soc img:hover {
+    transform: scale(1.1); /* Увеличение на 10% при наведении */
+    filter: brightness(85%); /* Немного затемнить */
+}
+
+.detail-soc img:active {
+    transform: scale(0.9); /* Уменьшение при нажатии */
+    filter: brightness(70%); /* Еще сильнее затемнить */
 }
 /* -----------------projects-detail-section-----------------*/
+/* -----------------random-detail-image-section-----------------*/
+/* -----------------random-detail-image-section-----------------*/
+.detail-random-img {
 
+    width: 500px;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 30px;
+
+    
+}
+.osoblivosty-line {
+
+    width: 180px;
+    border-bottom: 2px solid black;
+
+}
+.osoblivosty-detail h5{
+
+    font-family: "Unbounded",sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #373737;
+
+
+}
 
 /* -----------------projects-detail-page-----------------*/
+/* -----------------contact-page-----------------*/
+/* -----------------contact-ruki-milosty-----------------*/
+.contact-rukimilosty-item h1 {
+
+    font-family: "Jost",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #373737;
+
+
+}
+
+.contact-rukimilosty-text h2 {
+
+    font-family: "Unbounded",sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    color: #C01F2F;
+
+
+}
+.contact-rukimilosty-text {
+
+    max-width: 1100px;
+}
+.contact-rukimilosty-description h3{
+
+    font-family: "Jost",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #373737;
+}
+.contact-rukimilosty-description {
+
+    max-width: 500px;
+}
+/* -----------------contacty-section-----------------*/
+
+.contact-card {
+
+    background: linear-gradient(to bottom, #FFE9B8, #fff8e7);
+    width: 240px;
+    height: 270px;
+    border-radius: 40px;
+}
+.contact-card-body  {
+
+    margin-top: 40px;
+    margin-left: 40px;
+
+
+}
+.contact-text h6 {
+
+
+    font-family: "Jost",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #373737;
+
+
+}
+.contact-body-col-row img {
+
+    width: 25px;
+    height: 25px;
+}
+.contact-text {
+
+    max-width: 150px;
+}
+
+.contact-body-col-rows {
+
+    margin-top: -10px;
+}
+.contact-body-col-rows p,
+.contact-body-col-row  p{
+    margin-top: 20px;
+
+}
+.contact-body-col-rows p,
+.contact-body-col-row p {
+
+    font-family: "Jost",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #373737;
+}
+
+.contact-card-two  {
+
+    background: linear-gradient(to bottom, #CFF5E5, #ecfff7);
+    width: 340px;
+    height: 270px;
+    border-radius: 40px;
+
+
+}
+.contact-body-column-items p {
+
+    margin: 0;
+    padding: 0;
+
+
+}
+.contact-card-two-body {
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.contact-card-tree {
+
+    background: linear-gradient(to bottom, #78a8f0, #b8d4ff);
+    width: 590px;
+    height: 270px;
+    border-radius: 40px;
+}
+/* -----------------contacty-section-----------------*/
+/* -----------------card-contact-oplata-section-----------------*/
+.card-contact-oplata {
+
+    width: 350px;
+    height: 300px;
+    background: linear-gradient(to bottom, #121215, #4C4C7B);
+    border-radius: 40px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.card-contact-oplata:hover {
+
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3); /* Тень */
+    transform: scale(1.03); /* Легкое увеличение */
+}
+
+.card-contact-oplata:active {
+
+    box-shadow: 0px 2px 5px rgba(0, 86, 179, 0.5);
+    transform: scale(0.98); /* Незначительное уменьшение */
+}
+
+
+
+.card-contact-oplata-body {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.card-contact-oplata-items-top {
+
+    margin-top: 70px;
+
+}
+.card-oplata-recvizit-top {
+
+    margin-top: 35px;
+
+}
+.recvizit-card h5,
+.card-oplata-recvizit-top h5{
+
+    font-family: "Jost",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    opacity: 30%;
+
+
+}
+.recvizit-card-item h6,
+.card-oplata-recvizit-top-item h6 {
+
+    font-family: "Jost",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+
+.card-contact-img-top {
+
+    margin-top: 40px;
+
+
+}
+.card-contact-img-top  img{
+
+    width: 250px;
+
+}
+.card-contact-oplata-body-top {
+
+
+    margin-left: 40px;
+    margin-top: 50px;
+
+}
+/* -----------------card-contact-oplata-section-----------------*/
+
+
+/* -----------------contact-ruki-milosty-----------------*/
+/* -----------------contact-page-----------------*/
 
 
 
