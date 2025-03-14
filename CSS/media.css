@@ -460,6 +460,10 @@
 
 }
 @media (max-width: 500px){
+    .new-ditache-item h5 {
+
+        line-height: 1;
+    }
 
     .about-text-bady {
         padding: 10px;
